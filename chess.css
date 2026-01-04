@@ -1,0 +1,30 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chess-container{
+    height: 430px;
+    width: 400px;
+    border: 2px solid;
+}
+.chess-container .first-row, .chess-container .second-row{
+    height: 50px;
+    width: 100%;
+    border: 
+    2px solid;
+    display: flex;
+}
+.chess-container .first-row span,.chess-container .second-row span{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    /* border: 2px solid red; */
+}
+.chess-container .first-row span:nth-child(odd),.chess-container .second-row span:nth-child(even){
+    background: #000;
+    color: white;
+}
